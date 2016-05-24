@@ -13,5 +13,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:background="@drawable/custom_ui"/>
+        android:background="@drawable/custom_ui"
+        android:id="@+id/tv_custom_background" />
+    <TextView
+        android:layout_below="@id/tv_custom_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hamh@163.com"
+        android:autoLink="all"/>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@android:drawable/ic_delete"
+        android:drawableLeft="@android:drawable/ic_menu_agenda"
+        android:drawableRight="@android:drawable/ic_menu_always_landscape_portrait"
+        android:drawableBottom="@android:drawable/ic_btn_speak_now"
+        android:text="hellp"/>
 </RelativeLayout>
