@@ -8,4 +8,15 @@
         android:text="button"
         android:id="@+id/btn_test"
         android:background="@drawable/btn_bg"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_media_play"
+        android:adjustViewBounds="true"
+        android:maxWidth="80dp"
+        android:maxHeight="90dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_play"/>
 </LinearLayout>

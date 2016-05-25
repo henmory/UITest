@@ -8,7 +8,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        int flag = 2;
+        int flag = 3;
         switch (flag) {
             case 0:
                 setContentView(R.layout.activity_main);
@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 2:
                 setContentView(R.layout.ui_btn);
+                break;
+            case 3:
+                setContentView(R.layout.login);
 
         }
     }
