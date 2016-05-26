@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="性别"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:checked="true"
+            android:id="@+id/rb_male"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:id="@+id/rb_female"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb1"
+        android:text="banana"
+        android:checked="true"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb2"
+        android:text="apple"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb3"
+        android:text="pair"
+        android:checked="false"
+        android:button="@null"
+        android:drawableRight="@android:drawable/radiobutton_on_background"/>
+    <Button
+        android:id="@+id/btn_commit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="打开"
+        android:textOff="关闭"
+        android:checked="true"/>
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="on"
+        android:textOff="off"
+        android:checked="true"
+        />
+</LinearLayout>
